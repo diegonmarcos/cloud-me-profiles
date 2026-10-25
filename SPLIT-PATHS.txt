@@ -1,1 +1,5 @@
 b_Profiles/myprofile
+b_Profiles/mySocials
+b_Profiles/cv_pdf
+b_Profiles/cv_web
+b_Profiles/landpage
