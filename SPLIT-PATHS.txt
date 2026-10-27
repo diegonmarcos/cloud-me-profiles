@@ -3,3 +3,7 @@ b_Profiles/mySocials
 b_Profiles/cv_pdf
 b_Profiles/cv_web
 b_Profiles/landpage
+Lnktree/linktree
+Lnktree/linktree_icon-view
+Lnktree/linktree_mindmap
+Lnktree/linktree_pixel-world
