@@ -51,11 +51,16 @@ const groupOf = (src) => {
   return top === "e-Root" ? "Root" : top.replace(/^([a-z]_|e-)/, "");
 };
 
+// #1072: the project sources are overlaid from split repos (no history here), so a missing commit date falls back to the previous list.
+let prevList = null;
+try { prevList = JSON.parse(fs.readFileSync(path.join(root, "src/data/gh-pages.json"), "utf8")); } catch {}
+const prevDate = new Map((prevList?.sites || []).map((s) => [s.source, s.updated]));
+
 const sites = entries.map(({ src, name }) => {
   const custom = name === "." ? null : domains.get(name) || null;
   const url = custom ? `https://${custom}/` : name === "." ? base : `${base}${name}/`;
   // Last source commit (dist/ excluded: bot noise); sites that only ship a dist/ fall back to its last commit.
-  const date = git("log", "-1", "--format=%cs", "--", src, `:(exclude)${src}/dist`) || git("log", "-1", "--format=%cs", "--", src);
+  const date = git("log", "-1", "--format=%cs", "--", src, `:(exclude)${src}/dist`) || git("log", "-1", "--format=%cs", "--", src) || prevDate.get(src) || "";
   return {
     group: groupOf(src),
     title: name === "." ? "Root index" : titles.get(src) || readJson(`${src}/build.json`, {}).name || name,
