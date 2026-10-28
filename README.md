@@ -1,6 +1,6 @@
-# cloud-me-pub-profiles
+# cloud-me-pub-profiles___
 
-Registry index for the cloud-me-pub-profiles family (company and profile sites) - same model as `CG`, `Fin-CM` and `cloud`. This repo is an INDEX, not a container: it holds `repos.json` (the registry, a subset of _git-repos-master/repos.json), `clone.sh` (pick which repos to have locally) and one committed relative symlink per member (`<member> -> ../<member>`); the actual clones live as siblings in `~/git/`.
+Registry index for the cloud-me-pub-profiles family (company and profile sites) - same model as `CG___`, `Fin-CM___` and `cloud___`. This repo is an INDEX, not a container: it holds `repos.json` (the registry, a subset of _git-repos-master/repos.json), `clone.sh` (pick which repos to have locally) and one committed relative symlink per member (`<member> -> ../<member>`); the actual clones live as siblings in `~/git/`.
 
 ## Members
 
