@@ -201,21 +201,21 @@ function preloadMindmap(): Promise<void> {
     iframe.style.visibility = 'hidden';
 
     const timeout = setTimeout(() => {
-      document.body.removeChild(iframe);
+      iframe.remove(); // idempotent: onload may fire twice (about:blank, then the page)
       resolve(); // Resolve even if timeout
     }, 10000); // 10s timeout for mindmap load
 
     iframe.onload = () => {
       clearTimeout(timeout);
       setTimeout(() => {
-        document.body.removeChild(iframe);
+        iframe.remove(); // idempotent: onload may fire twice (about:blank, then the page)
         resolve();
       }, 1000); // Give it 1s extra to load resources
     };
 
     iframe.onerror = () => {
       clearTimeout(timeout);
-      document.body.removeChild(iframe);
+      iframe.remove(); // idempotent: onload may fire twice (about:blank, then the page)
       resolve(); // Continue even if mindmap fails
     };
 
