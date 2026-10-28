@@ -1,4 +1,6 @@
-# cloud-me-profiles
+# cloud-me-pub-profiles
 
 Sources of the `b_Profiles` group (myprofile, mySocials, cv_pdf, cv_web, landpage; mySocials moved in from front-media and the three CV and landing projects from front-individual, #1196), split from diegonmarcos/front-projects (#1072, which itself was split from diegonmarcos.github.io). Since #1217 it also holds `c_Circus/myAstro` (moved from CG-circus, #1218) and `Lnktree` (linktree, linktree_mindmap, linktree_pixel-world, linktree_icon-view; moved from front-linktree `a_Portals`, published URLs unchanged via SRC:NAME pairs in the deployer). Paths mirror the original layout (`b_Profiles/...`, `Lnktree/...` at the repo root). The Pages workflow of diegonmarcos.github.io checks this repo out over its workspace and publishes it.
 History stays in diegonmarcos.github.io (snapshot copy). `SPLIT-PATHS.txt` lists the overlaid paths.
+
+Hub of the cloud-me-pub-profiles family (renamed from cloud-me-profiles). Its content was split into cloud-me-pub-profiles-prf-prs (b_Profiles, c_Circus/myAstro) and cloud-me-pub-profiles-_lnktree (Lnktree); the copies here are a snapshot and are not overlaid by the deployer.
