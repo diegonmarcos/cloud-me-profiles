@@ -1,0 +1,98 @@
+{
+  "schema": "readme-node/v1",
+  "generated_by": "_git-repos-master readme-render.js nodeData() from projects-repos.json; DO NOT EDIT (node repos-sot.js sync-readmes)",
+  "name": "cloud-me-pub-profiles-___",
+  "label": "cloud-me-pub-profiles-___",
+  "code": "1.2.1.1.0",
+  "kind": "hub",
+  "description": "Front group b_Profiles (split from front-projects, #1072)",
+  "visibility": "public",
+  "url": "https://github.com/diegonmarcos/cloud-me-pub-profiles-___",
+  "developer": "Leaf.y",
+  "farm": "1.2.Cloud-me/Pub/Profiles",
+  "breadcrumb": [
+    {
+      "code": "1",
+      "kind": "area",
+      "label": "Unix",
+      "icon": "🐧"
+    },
+    {
+      "code": "1.2",
+      "kind": "project",
+      "label": "Cloud-Me",
+      "icon": "🙋"
+    },
+    {
+      "code": "1.2.1",
+      "kind": "subcategory",
+      "label": "Pub",
+      "icon": ""
+    },
+    {
+      "code": "1.2.1.1",
+      "kind": "family",
+      "label": "Profiles",
+      "icon": ""
+    }
+  ],
+  "hub": {
+    "name": "cloud-me-pub-___",
+    "code": "1.2.1.0",
+    "url": "https://github.com/diegonmarcos/cloud-me-pub-___"
+  },
+  "base_dir": "git",
+  "members": [
+    {
+      "code": "1.2.1.1.1",
+      "name": "cloud-me-pub-profiles-_lnktree",
+      "url": "https://github.com/diegonmarcos/cloud-me-pub-profiles-_lnktree",
+      "visibility": "public",
+      "kind": "repo",
+      "description": "Linktree site (split from Me-Profiles)"
+    },
+    {
+      "code": "1.2.1.1.2",
+      "name": "cloud-me-pub-profiles-leaf.y",
+      "url": "https://github.com/diegonmarcos/cloud-me-pub-profiles-leaf.y",
+      "visibility": "public",
+      "kind": "repo",
+      "description": "Leaf.y — company site"
+    },
+    {
+      "code": "1.2.1.1.3",
+      "name": "cloud-me-pub-profiles-nexus.z",
+      "url": "https://github.com/diegonmarcos/cloud-me-pub-profiles-nexus.z",
+      "visibility": "public",
+      "kind": "repo",
+      "description": "Nexus.z — company site"
+    },
+    {
+      "code": "1.2.1.1.4",
+      "name": "cloud-me-pub-profiles-prf-prs",
+      "url": "https://github.com/diegonmarcos/cloud-me-pub-profiles-prf-prs",
+      "visibility": "public",
+      "kind": "repo",
+      "description": "Professional and personal profiles (split from Me-Profiles)"
+    },
+    {
+      "code": "1.2.1.1.5",
+      "name": "cloud-me-pub-profiles-stark.x",
+      "url": "https://github.com/diegonmarcos/cloud-me-pub-profiles-stark.x",
+      "visibility": "public",
+      "kind": "repo",
+      "description": "Stark.x — company site"
+    }
+  ],
+  "tree": [
+    "├── .claude/",
+    "│   └── agents/",
+    "├── .githooks/",
+    "├── .github/",
+    "│   └── workflows/",
+    "├── .obsidian/",
+    "├── .vscode/",
+    "└── 0_hub/",
+    "    └── cloud-me-pub-___ (submodule)"
+  ]
+}
