@@ -5,6 +5,7 @@
   "label": "cloud-me-pub-profiles-___",
   "code": "1.2.1.1.0",
   "kind": "hub",
+  "variant": "hub",
   "description": "Front group b_Profiles (split from front-projects, #1072)",
   "visibility": "public",
   "url": "https://github.com/diegonmarcos/cloud-me-pub-profiles-___",
